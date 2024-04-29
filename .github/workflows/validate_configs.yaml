@@ -1,0 +1,51 @@
+name: Validate JSON Files
+
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  check_json:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Validate JSON Files
+        run: |
+          python3 - << 'EOF'
+          import json
+          from packaging import version
+
+          def load_json(file_path):
+              with open(file_path, 'r') as file:
+                  return json.load(file)
+
+          def check_version_key(data, file_name):
+              if "VERSION" not in data:
+                  raise ValueError(f"The key 'VERSION' is missing in {file_name}")
+
+          try:
+              # Load JSON files
+              public = load_json('./public.json')
+              staging = load_json('./public.staging.json')
+              prod = load_json('./public.prod.json')
+
+              # Check for the presence of the VERSION key
+              check_version_key(public, 'public.json')
+              check_version_key(staging, 'public.staging.json')
+              check_version_key(prod, 'public.prod.json')
+
+              # Check staging version is greater than or equal to prod version
+              if version.parse(staging["VERSION"]) < version.parse(prod["VERSION"]):
+                  raise ValueError("Staging version must be greater than or equal to prod version")
+
+              # Check public.json and public.staging.json are equal
+              if public != staging:
+                  raise ValueError("public.json and public.staging.json must be equal")
+
+          except Exception as e:
+              print(e)
+              exit(1)
+          EOF
