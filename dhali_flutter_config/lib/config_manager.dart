@@ -11,11 +11,11 @@ class ConfigManager {
 
   static Map<String, dynamic>? config;
 
-  bool isStagingEnvironment() {
+  static bool isStagingEnvironment() {
     return window.location.href.contains("staging");
   }
 
-  Future<Map<String, dynamic>> fetchConfig() async {
+  static Future<Map<String, dynamic>> fetchConfig() async {
     String url = isStagingEnvironment() ? stagingConfigUrl : prodConfigUrl;
     var response = await http.get(Uri.parse(url));
     if (response.statusCode == 200) {
@@ -25,7 +25,7 @@ class ConfigManager {
     }
   }
 
-  Future<void> checkAndUpdateConfig() async {
+  static Future<void> checkAndUpdateConfig() async {
     if (_alreadyReloaded) {
       return;
     }
