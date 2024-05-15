@@ -1,5 +1,5 @@
 {
-    "VERSION": "1.0.5",
+    "VERSION": "1.0.6",
     "MINTED_NFTS_DOCUMENT_KEYS": {
         "NUMBER_OF_SUCCESSFUL_REQUESTS": "num_successful_requests",
         "ASSET_CREATOR_ACCOUNT": "asset_creator_account",
