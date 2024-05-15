@@ -12,7 +12,8 @@ class ConfigManager {
   static Map<String, dynamic>? config;
 
   static bool isStagingEnvironment() {
-    return window.location.href.contains("staging");
+    return window.location.href.contains("staging") ||
+        window.location.href.contains("localhost");
   }
 
   static Future<Map<String, dynamic>> fetchConfig() async {
