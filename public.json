@@ -2,6 +2,7 @@
     "VERSION": "1.0.10",
     "MINTED_NFTS_DOCUMENT_KEYS": {
         "NUMBER_OF_SUCCESSFUL_REQUESTS": "num_successful_requests",
+        "ASSET_CURRENCY": "asset_currency",
         "ASSET_OWNER_ACCOUNT": "asset_owner_account",
         "ASSET_CREATOR_ACCOUNT": "asset_creator_account",
         "AVERAGE_INFERENCE_TIME_MS": "average_inference_time_ms",
