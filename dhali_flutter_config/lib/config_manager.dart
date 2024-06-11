@@ -12,7 +12,9 @@ class ConfigManager {
   static Map<String, dynamic>? config;
 
   static bool isStagingEnvironment() {
-    return window.location.href.contains("staging") ||
+    String deploy_env = String.fromEnvironment("DEPLOYMENT_ENVIRONMENT");
+    return deploy_env == "staging" ||
+        window.location.href.contains("staging") ||
         window.location.href.contains("localhost");
   }
 
