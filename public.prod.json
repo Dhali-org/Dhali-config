@@ -44,6 +44,26 @@
     "ROOT_RUN_URL": "https://run.api.dhali.io",
     "XUMM_SERVER_URL": "https://dhali-prod-xumm-dauenf0n.uc.gateway.dev",
     "DHALI_PUBLIC_ADDRESS": "rLggTEwmTe3eJgyQbCSk4wQazow2TeKrtR",
+    "DHALI_PUBLIC_ADDRESSES": {
+        "XRPL.MAINNET": {
+            "*": {
+                "wallet_id": "rLggTEwmTe3eJgyQbCSk4wQazow2TeKrtR"
+            }
+        },
+        "XRPL.TESTNET": {
+            "*":{
+                "wallet_id": "rJiAX3Xk2Fq3KJrjsGajrB5LENZq7VCwAd"
+            }
+        },
+        "open_payments": {
+            "USD": {
+                "wallet_id": "$ilp.rafiki.money/dhali_usd"
+            },
+            "EUR": {
+                "wallet_id": "$ilp.rafiki.money/dhali_eur"
+            }
+        }
+    },
     "DHALI_MINTER_PUBLIC_ADDRESS": "rKZMpGU7zVPhg2VpFrLpHNoGTM9damvVdX",
     "DHALI_DEPLOYMENT_COST_PER_CHUNK_DROPS": 2000,
     "DHALI_CPU_INFERENCE_COST_PER_MS": 0.01,
