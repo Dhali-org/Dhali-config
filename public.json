@@ -46,12 +46,12 @@
     "DHALI_PUBLIC_ADDRESS": "rJiAX3Xk2Fq3KJrjsGajrB5LENZq7VCwAd",
     "DHALI_PUBLIC_ADDRESSES": {
         "XRPL.MAINNET": {
-            "*": {
+            "XRP": {
                 "wallet_id": "rLggTEwmTe3eJgyQbCSk4wQazow2TeKrtR"
             }
         },
         "XRPL.TESTNET": {
-            "*":{
+            "XRP":{
                 "wallet_id": "rJiAX3Xk2Fq3KJrjsGajrB5LENZq7VCwAd"
             }
         },
