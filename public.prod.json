@@ -71,6 +71,7 @@
     "MAX_NUMBER_OF_BYTES_PER_DEPLOY_CHUNK": 10485760,
     "PAYMENT_CLAIM_BUFFER": 30,
     "XRPL_NODE_HTTPS_NODE": "https://xrplcluster.com/",
+    "XRPL_TESTNET_NODE_HTTPS_NODE": "https://testnet.xrpl-labs.com/",
     "XRPL_NODE_WEBSOCKET_NODE": "wss://xrplcluster.com/",
     "XRPL_CLIO_WEBSOCKET_NODE": "wss://s2-clio.ripple.com:51233/"
 }
