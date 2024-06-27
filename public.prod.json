@@ -67,7 +67,7 @@
     "PUBLIC_CLIENTS": {
         "XRPL.MAINNET": {
             "HTTP_CLIENT": "https://xrplcluster.com/",
-            "WSS_CLIENT": "wss://xrpl-labs.com/"
+            "WSS_CLIENT": "wss://xrplcluster.com/"
         },
         "XRPL.TESTNET": {
             "HTTP_CLIENT": "https://testnet.xrpl-labs.com/",
