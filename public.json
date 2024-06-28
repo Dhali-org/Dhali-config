@@ -43,11 +43,10 @@
     "ROOT_API_ADMIN_URL": "wss://api-admin-gateway-l4g5ea3neq-uc.a.run.app",
     "ROOT_RUN_URL": "https://dhali-staging-run-3mmgxhct.uc.gateway.dev",
     "XUMM_SERVER_URL": "https://kernml-xumm-3mmgxhct.uc.gateway.dev",
-    "DHALI_PUBLIC_ADDRESS": "rJiAX3Xk2Fq3KJrjsGajrB5LENZq7VCwAd",
     "DHALI_PUBLIC_ADDRESSES": {
         "XRPL.MAINNET": {
             "XRP": {
-                "wallet_id": "rLggTEwmTe3eJgyQbCSk4wQazow2TeKrtR"
+                "wallet_id": "rJiAX3Xk2Fq3KJrjsGajrB5LENZq7VCwAd"
             }
         },
         "XRPL.TESTNET": {

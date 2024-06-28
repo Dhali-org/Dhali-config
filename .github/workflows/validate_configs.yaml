@@ -32,6 +32,11 @@ jobs:
               staging = load_json('./public.staging.json')
               prod = load_json('./public.prod.json')
 
+              if prod["DHALI_PUBLIC_ADDRESSES"]["XRPL.MAINNET"]["XRP"] == staging["DHALI_PUBLIC_ADDRESSES"]["XRPL.MAINNET"]["XRP"]:
+                  raise Exception("Staging and production XRPL.MAINNET wallets must be different")
+              if prod["DHALI_PUBLIC_ADDRESSES"]["XRPL.TESTNET"]["XRP"] == staging["DHALI_PUBLIC_ADDRESSES"]["XRPL.TESTNET"]["XRP"]:
+                  raise Exception("Staging and production XRPL TESTNET wallets must be different")
+
               # Check for the presence of the VERSION key
               check_version_key(public, 'public.json')
               check_version_key(staging, 'public.staging.json')
