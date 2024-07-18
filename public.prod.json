@@ -55,7 +55,7 @@
                 "wallet_id": "rLggTEwmTe3eJgyQbCSk4wQazow2TeKrtR"
             }
         },
-        "open_payments": {
+        "OPEN_PAYMENTS.TESTNET": {
             "USD": {
                 "wallet_id": "$ilp.rafiki.money/dhali_usd"
             },
@@ -73,7 +73,7 @@
             "HTTP_CLIENT": "https://testnet.xrpl-labs.com/",
             "WSS_CLIENT": "wss://testnet.xrpl-labs.com/"
         },
-        "open_payments": {}
+        "OPEN_PAYMENTS.TESTNET": {}
     },
     "DHALI_DEPLOYMENT_COST_PER_CHUNK_DROPS": 2000,
     "DHALI_CPU_INFERENCE_COST_PER_MS": 0.01,
