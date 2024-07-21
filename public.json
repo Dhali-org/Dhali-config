@@ -41,6 +41,7 @@
     "ROOT_DEPLOY_URL": "https://deploy-to-bucket-l4g5ea3neq-uc.a.run.app",
     "ROOT_CONSUMER_URL": "https://kernml-consumer-3mmgxhct.uc.gateway.dev",
     "ROOT_API_ADMIN_URL": "wss://api-admin-gateway-l4g5ea3neq-uc.a.run.app",
+    "ROOT_OPENPAYMENTS_DEPOSIT_SERVER": "wss://open-payments-deposit-server-l4g5ea3neq-uc.a.run.app",
     "ROOT_RUN_URL": "https://dhali-staging-run-3mmgxhct.uc.gateway.dev",
     "XUMM_SERVER_URL": "https://kernml-xumm-3mmgxhct.uc.gateway.dev",
     "DHALI_PUBLIC_ADDRESSES": {
