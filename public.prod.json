@@ -76,7 +76,7 @@
         },
         "OPEN_PAYMENTS.TESTNET": {}
     },
-    "OPENPAYMENTS_REDIRECT_CLIENT": "https://dhali-op-redirect.web.app",
+    "OPENPAYMENTS_REDIRECT_CLIENT": "https://redirect-op.dhali.io",
     "DHALI_DEPLOYMENT_COST_PER_CHUNK_DROPS": 2000,
     "DHALI_CPU_INFERENCE_COST_PER_MS": 0.01,
     "DHALI_EARNINGS_PERCENTAGE_PER_INFERENCE": 1,
