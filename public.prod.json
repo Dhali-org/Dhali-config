@@ -46,6 +46,16 @@
     "XUMM_SERVER_URL": "https://dhali-prod-xumm-dauenf0n.uc.gateway.dev",
     "DHALI_PUBLIC_ADDRESS": "rLggTEwmTe3eJgyQbCSk4wQazow2TeKrtR",
     "DHALI_PUBLIC_ADDRESSES": {
+        "XAHL.MAINNET": {
+            "XAH": {
+                "wallet_id": "rLggTEwmTe3eJgyQbCSk4wQazow2TeKrtR"
+            }
+        },
+        "XAHL.TESTNET": {
+            "XAH":{
+                "wallet_id": "rLggTEwmTe3eJgyQbCSk4wQazow2TeKrtR"
+            }
+        },
         "XRPL.MAINNET": {
             "XRP": {
                 "wallet_id": "rLggTEwmTe3eJgyQbCSk4wQazow2TeKrtR"
@@ -66,6 +76,14 @@
         }
     },
     "PUBLIC_CLIENTS": {
+        "XAHL.MAINNET": {
+            "HTTP_CLIENT": "https://xahau.network",
+            "WSS_CLIENT": "wss://xahau.network"
+        },
+        "XAHL.TESTNET": {
+            "HTTP_CLIENT": "https://xahau-test.net",
+            "WSS_CLIENT": "wss://xahau-test.net"
+        },
         "XRPL.MAINNET": {
             "HTTP_CLIENT": "https://xrplcluster.com/",
             "WSS_CLIENT": "wss://xrplcluster.com/"
