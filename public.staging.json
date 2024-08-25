@@ -45,6 +45,16 @@
     "ROOT_RUN_URL": "https://dhali-staging-run-3mmgxhct.uc.gateway.dev",
     "XUMM_SERVER_URL": "https://kernml-xumm-3mmgxhct.uc.gateway.dev",
     "DHALI_PUBLIC_ADDRESSES": {
+            "XAHL.MAINNET": {
+                "XAH": {
+                    "wallet_id": "rJiAX3Xk2Fq3KJrjsGajrB5LENZq7VCwAd"
+                }
+            },
+            "XAHL.TESTNET": {
+                "XAH":{
+                    "wallet_id": "rJiAX3Xk2Fq3KJrjsGajrB5LENZq7VCwAd"
+                }
+            },
             "XRPL.MAINNET": {
                 "XRP": {
                     "wallet_id": "rJiAX3Xk2Fq3KJrjsGajrB5LENZq7VCwAd"
@@ -65,6 +75,14 @@
             }
     },
     "PUBLIC_CLIENTS": {
+        "XAHL.MAINNET": {
+            "HTTP_CLIENT": "https://xahau.network",
+            "WSS_CLIENT": "wss://xahau.network"
+        },
+        "XAHL.TESTNET": {
+            "HTTP_CLIENT": "https://xahau-test.net",
+            "WSS_CLIENT": "wss://xahau-test.net"
+        },
         "XRPL.MAINNET": {
             "HTTP_CLIENT": "https://xrplcluster.com/",
             "WSS_CLIENT": "wss://xrplcluster.com/"
