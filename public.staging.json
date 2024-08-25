@@ -47,30 +47,36 @@
     "DHALI_PUBLIC_ADDRESSES": {
             "XAHL.MAINNET": {
                 "XAH": {
-                    "wallet_id": "rJiAX3Xk2Fq3KJrjsGajrB5LENZq7VCwAd"
+                    "wallet_id": "rJiAX3Xk2Fq3KJrjsGajrB5LENZq7VCwAd",
+                    "scale": 6
                 }
             },
             "XAHL.TESTNET": {
                 "XAH":{
-                    "wallet_id": "rJiAX3Xk2Fq3KJrjsGajrB5LENZq7VCwAd"
+                    "wallet_id": "rJiAX3Xk2Fq3KJrjsGajrB5LENZq7VCwAd",
+                    "scale": 6
                 }
             },
             "XRPL.MAINNET": {
                 "XRP": {
-                    "wallet_id": "rJiAX3Xk2Fq3KJrjsGajrB5LENZq7VCwAd"
+                    "wallet_id": "rJiAX3Xk2Fq3KJrjsGajrB5LENZq7VCwAd",
+                    "scale": 6
                 }
             },
             "XRPL.TESTNET": {
                 "XRP":{
-                    "wallet_id": "rJiAX3Xk2Fq3KJrjsGajrB5LENZq7VCwAd"
+                    "wallet_id": "rJiAX3Xk2Fq3KJrjsGajrB5LENZq7VCwAd",
+                    "scale": 6
                 }
             },
             "OPEN_PAYMENTS.TESTNET": {
                 "USD": {
-                    "wallet_id": "$ilp.rafiki.money/dhali_usd"
+                    "wallet_id": "$ilp.rafiki.money/dhali_usd",
+                    "scale": 6
                 },
                 "EUR": {
-                    "wallet_id": "$ilp.rafiki.money/dhali_eur"
+                    "wallet_id": "$ilp.rafiki.money/dhali_eur",
+                    "scale": 6
                 }
             }
     },
