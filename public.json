@@ -90,7 +90,7 @@
             "WSS_CLIENT": "wss://xahau-test.net"
         },
         "XRPL.MAINNET": {
-            "HTTP_CLIENT": "https://xrplcluster.com/",
+            "HTTP_CLIENT": "https://s1.ripple.com:51234/",
             "WSS_CLIENT": "wss://xrplcluster.com/"
         },
         "XRPL.TESTNET": {
