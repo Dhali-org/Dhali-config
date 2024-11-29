@@ -55,7 +55,12 @@
                 "wallet_id": "rLggTEwmTe3eJgyQbCSk4wQazow2TeKrtR",
                 "scale": 6,
                 "issuer": "rhub8VRN55s94qWKDv6jmDy1pUykJzF3wq"
-            }
+            },
+            "DHA": {
+                "wallet_id": "rLggTEwmTe3eJgyQbCSk4wQazow2TeKrtR",
+                "scale": 6,
+                "issuer": "rJiAX3Xk2Fq3KJrjsGajrB5LENZq7VCwAd"
+            }  
         },
         "XAHL.TESTNET": {
             "XAH":{
