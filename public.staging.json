@@ -57,7 +57,7 @@
                 },
                 "DHA": {
                     "wallet_id": "rJiAX3Xk2Fq3KJrjsGajrB5LENZq7VCwAd",
-                    "scale": 6,
+                    "scale": 0,
                     "issuer": "rDyz9rX7eGJRdVDC8NGxMxqh9U14qduqzS"
                 }                
             },
