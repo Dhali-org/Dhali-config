@@ -44,17 +44,11 @@
     "ROOT_OPENPAYMENTS_DEPOSIT_SERVER": "wss://open-payments-deposit-server-lgnnjupgwa-uc.a.run.app",   
     "ROOT_RUN_URL": "https://run.api.dhali.io",
     "XUMM_SERVER_URL": "https://xumm-requests-1042340549063.us-central1.run.app",
-    "DHALI_PUBLIC_ADDRESS": "rLggTEwmTe3eJgyQbCSk4wQazow2TeKrtR",
     "DHALI_PUBLIC_ADDRESSES": {
         "XAHL.MAINNET": {
             "XAH": {
                 "wallet_id": "rLggTEwmTe3eJgyQbCSk4wQazow2TeKrtR",
                 "scale": 6
-            },
-            "USD": {
-                "wallet_id": "rLggTEwmTe3eJgyQbCSk4wQazow2TeKrtR",
-                "scale": 6,
-                "issuer": "rhub8VRN55s94qWKDv6jmDy1pUykJzF3wq"
             },
             "DHA": {
                 "wallet_id": "rLggTEwmTe3eJgyQbCSk4wQazow2TeKrtR",
