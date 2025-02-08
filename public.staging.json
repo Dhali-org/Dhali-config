@@ -1,5 +1,5 @@
 {
-    "VERSION": "1.0.30",
+    "VERSION": "1.0.31",
     "MINTED_NFTS_DOCUMENT_KEYS": {
         "NUMBER_OF_SUCCESSFUL_REQUESTS": "num_successful_requests",
         "EARNING_CURRENCY": "asset_earning_currency",
@@ -18,6 +18,7 @@
         "CANONICAL_API": "canonical_api",
         "API_EARNINGS": "api_earnings"
     },
+    "WHITELISTED_APIS": ["07b661eb-5de3-46a6-9bf9-319fc4922e19", "0dfab005-82c8-42c7-adab-5c15b92dba0c"],
     "MINTED_NFTS_COLLECTION_NAME": "public_minted_nfts",
     "PAYMENT_CLAIM_KEYS": {
         "ACCOUNT": "account",
