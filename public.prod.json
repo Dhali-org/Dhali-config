@@ -18,7 +18,7 @@
         "CANONICAL_API": "canonical_api",
         "API_EARNINGS": "api_earnings"
     },
-    "WHITELISTED_APIS": ["199fd80b-1776-4708-b1a1-4b2bb386435d", "d995db530-7e57-46d1-ac8a-76324794e0c9", "ee519808-97b7-4288-abb8-17d4a8513ea5", "d74e99cb-166d-416b-b171-4d313e0f079d", "56d61c4b-654f-4abc-8e5e-7fcb89ba13dd", "d2bb727c7-d44a-4ed3-a031-fd15b3903486"],
+    "WHITELISTED_APIS": ["199fd80b-1776-4708-b1a1-4b2bb386435d", "d995db530-7e57-46d1-ac8a-76324794e0c9", "ee519808-97b7-4288-abb8-17d4a8513ea5", "d74e99cb-166d-416b-b171-4d313e0f079d", "56d61c4b-654f-4abc-8e5e-7fcb89ba13dd", "d2bb727c7-d44a-4ed3-a031-fd15b3903486", "d72283974-3929-4ed9-81f2-c837fd1e6cc5"],
     "MINTED_NFTS_COLLECTION_NAME": "public_minted_nfts",
     "PAYMENT_CLAIM_KEYS": {
         "ACCOUNT": "account",
