@@ -110,5 +110,12 @@
     "DHALI_CPU_INFERENCE_COST_PER_MS": 0.02,
     "DHALI_EARNINGS_PERCENTAGE_PER_INFERENCE": 2,
     "MAX_NUMBER_OF_BYTES_PER_DEPLOY_CHUNK": 10485760,
-    "PAYMENT_CLAIM_BUFFER": 90
+    "PAYMENT_CLAIM_BUFFER": 90,
+    "WHITELISTED_HOST_TO_URL_MAP": {
+        "tiny.api.dhali.io": "8e15f433-3890-49b5-a0c1-108aff54f118",
+        "xrpscan.dhali.io": "ee519808-97b7-4288-abb8-17d4a8513ea5",
+        "xrplcluster.dhali.io": "199fd80b-1776-4708-b1a1-4b2bb386435d",
+        "xrplexplorer.dhali.io": "d995db530-7e57-46d1-ac8a-76324794e0c9",
+        "xahauexplorer.dhali.io": "56d61c4b-654f-4abc-8e5e-7fcb89ba13dd"
+    }
 }
