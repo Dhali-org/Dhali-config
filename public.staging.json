@@ -16,7 +16,8 @@
         "EARNING_RATE": "asset_earning_rate",
         "EARNING_TYPE": "asset_earning_type",
         "CANONICAL_API": "canonical_api",
-        "API_EARNINGS": "api_earnings"
+        "API_EARNINGS": "api_earnings",
+        "API_PROTOCOL": "api_protocol"
     },
     "WHITELISTED_APIS": ["07b661eb-5de3-46a6-9bf9-319fc4922e19", "0dfab005-82c8-42c7-adab-5c15b92dba0c"],
     "MINTED_NFTS_COLLECTION_NAME": "public_minted_nfts",
