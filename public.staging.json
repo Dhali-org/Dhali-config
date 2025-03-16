@@ -45,6 +45,7 @@
     "ROOT_API_ADMIN_URL": "wss://api-admin-gateway-l4g5ea3neq-uc.a.run.app",
     "ROOT_OPENPAYMENTS_DEPOSIT_SERVER": "wss://open-payments-deposit-server-l4g5ea3neq-uc.a.run.app",
     "ROOT_RUN_URL": "https://dhali-staging-run-3mmgxhct.uc.gateway.dev",
+    "ROOT_WS_RUN_URL": "wss://inference-gateway-websockets-284340395549.us-central1.run.app",
     "XUMM_SERVER_URL": "https://xumm-requests-284340395549.us-central1.run.app",
     "DHALI_PUBLIC_ADDRESSES": {
         "XAHL.MAINNET": {
