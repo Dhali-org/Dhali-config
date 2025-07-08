@@ -1,5 +1,5 @@
 {
-    "VERSION": "1.0.36",
+    "VERSION": "1.0.37",
     "MINTED_NFTS_DOCUMENT_KEYS": {
         "NUMBER_OF_SUCCESSFUL_REQUESTS": "num_successful_requests",
         "EARNING_CURRENCY": "asset_earning_currency",
@@ -19,7 +19,7 @@
         "API_EARNINGS": "api_earnings",
         "API_PROTOCOL": "api_protocol"
     },
-    "WHITELISTED_APIS": ["199fd80b-1776-4708-b1a1-4b2bb386435d", "d995db530-7e57-46d1-ac8a-76324794e0c9", "ee519808-97b7-4288-abb8-17d4a8513ea5", "d74e99cb-166d-416b-b171-4d313e0f079d", "56d61c4b-654f-4abc-8e5e-7fcb89ba13dd", "d2bb727c7-d44a-4ed3-a031-fd15b3903486", "d72283974-3929-4ed9-81f2-c837fd1e6cc5"],
+    "WHITELISTED_APIS": ["199fd80b-1776-4708-b1a1-4b2bb386435d", "d995db530-7e57-46d1-ac8a-76324794e0c9", "ee519808-97b7-4288-abb8-17d4a8513ea5", "d74e99cb-166d-416b-b171-4d313e0f079d", "56d61c4b-654f-4abc-8e5e-7fcb89ba13dd", "d2bb727c7-d44a-4ed3-a031-fd15b3903486", "d72283974-3929-4ed9-81f2-c837fd1e6cc5", "1e76d84e-1a17-4c57-86dc-10b79bbc92f1"],
     "MINTED_NFTS_COLLECTION_NAME": "public_minted_nfts",
     "PAYMENT_CLAIM_KEYS": {
         "ACCOUNT": "account",
@@ -116,9 +116,10 @@
     "WHITELISTED_HOST_TO_URL_MAP": {
         "tiny.api.dhali.io": "8e15f433-3890-49b5-a0c1-108aff54f118",
         "xrpscan.dhali.io": "ee519808-97b7-4288-abb8-17d4a8513ea5",
+        "xrpscan-search.dhali.io": "ee519808-97b7-4288-abb8-17d4a8513ea5",
         "xrplcluster.dhali.io": "199fd80b-1776-4708-b1a1-4b2bb386435d",
-        "xrplexplorer.dhali.io": "d995db530-7e57-46d1-ac8a-76324794e0c9",
         "bithomp.dhali.io": "d995db530-7e57-46d1-ac8a-76324794e0c9",
+        "xrplexplorer.dhali.io": "d995db530-7e57-46d1-ac8a-76324794e0c9",
         "xahauexplorer.dhali.io": "56d61c4b-654f-4abc-8e5e-7fcb89ba13dd"
     }
 }
