@@ -88,6 +88,13 @@
             }
         }
     },
+    "PRICING_CURRENCIES": {
+        "XRPL.MAINNET": [{
+                "issuer": "rMxCKbEDwqr76QuheSUMdEGf4B9xJ8m5De",
+                "code": "524C555344000000000000000000000000000000",
+                "scale": 6
+        }]
+    },
     "PUBLIC_CLIENTS": {
         "XAHL.MAINNET": {
             "HTTP_CLIENT": "https://xahau.network",
