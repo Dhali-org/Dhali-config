@@ -25,6 +25,12 @@ jobs:
           def check_version_key(data, file_name):
               if "VERSION" not in data:
                   raise ValueError(f"The key 'VERSION' is missing in {file_name}")
+          
+          def check_new_features_key(data, file_name):
+              if "new_features" not in data:
+                  raise ValueError(f"The key 'new_features' is missing in {file_name}")
+              if not isinstance(data["new_features"], list):
+                  raise ValueError(f"The key 'new_features' in {file_name} must be a list.")
 
           try:
               # Load JSON files
@@ -41,6 +47,11 @@ jobs:
               check_version_key(public, 'public.json')
               check_version_key(staging, 'public.staging.json')
               check_version_key(prod, 'public.prod.json')
+
+              # Check for the presence and type of the new_features key
+              # Note: public.json is assumed to be a copy of staging, so we don't need to check it separately.
+              check_new_features_key(staging, 'public.staging.json')
+              check_new_features_key(prod, 'public.prod.json')
 
               # Check staging version is greater than or equal to prod version
               if version.parse(staging["VERSION"]) < version.parse(prod["VERSION"]):
