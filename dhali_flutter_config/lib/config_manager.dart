@@ -96,7 +96,6 @@ class ConfigManager {
   static void showNewFeaturesDialog(BuildContext context) {
     const showFeaturesValue = 'false';
     if (window.localStorage['show_new_features'] != showFeaturesValue) {
-      window.localStorage['show_new_features'] = showFeaturesValue;
 
       String? localConfig = window.localStorage['config'];
       if (localConfig == null) {
@@ -112,6 +111,7 @@ class ConfigManager {
           showDialog(
             context: context,
             builder: (BuildContext context) {
+              window.localStorage['show_new_features'] = showFeaturesValue;
               return AlertDialog(
                 title: const Text("What's New"),
                 content: SingleChildScrollView(
