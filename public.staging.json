@@ -1,5 +1,8 @@
 {
-    "VERSION": "1.0.37",
+    "VERSION": "1.0.38",
+    "new_features": [
+        "Create paid API keys with [JavaScript](https://www.npmjs.com/package/dhali-js)", 
+        "Create paid API keys with [Python](https://pypi.org/project/dhali-py/)"],
     "MINTED_NFTS_DOCUMENT_KEYS": {
         "NUMBER_OF_SUCCESSFUL_REQUESTS": "num_successful_requests",
         "EARNING_CURRENCY": "asset_earning_currency",

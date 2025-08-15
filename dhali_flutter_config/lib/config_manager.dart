@@ -1,5 +1,7 @@
 import 'dart:convert';
 import 'dart:html';
+import 'package:flutter/gestures.dart';
+import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
 class ConfigManager {
@@ -42,7 +44,8 @@ class ConfigManager {
 
       if (localConfig == null || latestVersion != localConfigJson['VERSION']) {
         print(
-            "Config version has changed. Updating local storage and applying new configuration.");
+          "Config version has changed. Updating local storage and applying new configuration.",
+        );
         window.localStorage['config'] = jsonEncode(config);
         window.location.reload();
       } else {
@@ -50,6 +53,110 @@ class ConfigManager {
       }
     } catch (e) {
       print("An error occurred while updating configuration: $e");
+    }
+  }
+
+  static List<InlineSpan> _buildFeatureTextSpans(
+    String text,
+    BuildContext context,
+  ) {
+    final List<InlineSpan> spans = [];
+    final theme = Theme.of(context);
+    final linkStyle = TextStyle(
+      color: theme.colorScheme.primary,
+      decoration: TextDecoration.underline,
+      decorationColor: theme.colorScheme.primary,
+    );
+
+    final RegExp linkRegExp = RegExp(r'\[([^\]]+)\]\(([^)]+)\)');
+
+    text.splitMapJoin(
+      linkRegExp,
+      onMatch: (Match match) {
+        final String linkText = match.group(1)!;
+        final String url = match.group(2)!;
+        spans.add(
+          TextSpan(
+            text: linkText,
+            style: linkStyle,
+            recognizer: TapGestureRecognizer()
+              ..onTap = () => window.open(url, '_blank'),
+          ),
+        );
+        return '';
+      },
+      onNonMatch: (String nonMatch) {
+        spans.add(TextSpan(text: nonMatch));
+        return '';
+      },
+    );
+    return spans;
+  }
+
+  static void showNewFeaturesDialog(BuildContext context) {
+    const showFeaturesValue = 'false';
+    if (window.localStorage['show_new_features'] != showFeaturesValue) {
+      window.localStorage['show_new_features'] = showFeaturesValue;
+
+      String? localConfig = window.localStorage['config'];
+      if (localConfig == null) {
+        return;
+      }
+
+      Map<String, dynamic> localConfigJson = jsonDecode(localConfig);
+      final newFeatures = localConfigJson['new_features'];
+
+      if (newFeatures is List && newFeatures.isNotEmpty) {
+        // Show the dialog after the first frame has been built.
+        WidgetsBinding.instance.addPostFrameCallback((_) {
+          showDialog(
+            context: context,
+            builder: (BuildContext context) {
+              return AlertDialog(
+                title: const Text("What's New"),
+                content: SingleChildScrollView(
+                  child: ListBody(
+                    children: newFeatures.map<Widget>((feature) {
+                      final theme = Theme.of(context);
+                      return Padding(
+                        padding: const EdgeInsets.symmetric(vertical: 8.0),
+                        child: Row(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Icon(
+                              Icons.check_circle,
+                              color: theme.colorScheme.primary,
+                              size: 20,
+                            ),
+                            const SizedBox(width: 12),
+                            Expanded(
+                              child: RichText(
+                                text: TextSpan(
+                                  style: theme.textTheme.bodyMedium,
+                                  children: _buildFeatureTextSpans(
+                                    feature.toString(),
+                                    context,
+                                  ),
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                      );
+                    }).toList(),
+                  ),
+                ),
+                actions: <Widget>[
+                  TextButton(
+                    child: const Text('OK'),
+                    onPressed: () => Navigator.of(context).pop(),
+                  ),
+                ],
+              );
+            },
+          );
+        });
+      }
     }
   }
 }
