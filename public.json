@@ -61,7 +61,7 @@
                 "wallet_id": "rJiAX3Xk2Fq3KJrjsGajrB5LENZq7VCwAd",
                 "scale": 6,
                 "issuer": "rDyz9rX7eGJRdVDC8NGxMxqh9U14qduqzS"
-            }
+            }                
         },
         "XAHL.TESTNET": {
             "XAH":{
@@ -79,6 +79,12 @@
             "XRP":{
                 "wallet_id": "rJiAX3Xk2Fq3KJrjsGajrB5LENZq7VCwAd",
                 "scale": 6
+            }
+        },
+        "ETHEREUM": {
+            "ETH":{
+                "wallet_id": "0xea6678f1f28bcf59172b898eeb04263e59fb4d66",
+                "scale": 18
             }
         },
         "OPEN_PAYMENTS.TESTNET": {
@@ -115,6 +121,10 @@
         "XRPL.TESTNET": {
             "HTTP_CLIENT": "https://testnet.xrpl-labs.com/",
             "WSS_CLIENT": "wss://testnet.xrpl-labs.com/"
+        },
+        "ETHEREUM": {
+            "HTTP_CLIENT": "https://rpc.ankr.com/eth",
+            "WSS_CLIENT": "wss://rpc.ankr.com/eth/ws"
         },
         "OPEN_PAYMENTS.TESTNET": {}
     },
