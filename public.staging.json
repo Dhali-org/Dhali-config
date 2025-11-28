@@ -81,7 +81,7 @@
                 "scale": 6
             }
         },
-        "ETHEREUM": {
+        "SEPOLIA": {
             "ETH":{
                 "wallet_id": "0xea6678f1f28bcf59172b898eeb04263e59fb4d66",
                 "scale": 18
@@ -122,11 +122,16 @@
             "HTTP_CLIENT": "https://testnet.xrpl-labs.com/",
             "WSS_CLIENT": "wss://testnet.xrpl-labs.com/"
         },
-        "ETHEREUM": {
+        "SEPOLIA": {
             "HTTP_CLIENT": "https://rpc.ankr.com/eth",
             "WSS_CLIENT": "wss://rpc.ankr.com/eth/ws"
         },
         "OPEN_PAYMENTS.TESTNET": {}
+    },
+    "CONTRACTS": {
+        "SEPOLIA": {
+            "contract_address": "0x2ec3b3867A1923cFE742D50f5B4BB7fbf75C2653"
+        }
     },
     "OPENPAYMENTS_REDIRECT_CLIENT": "https://dhali-op-redirect-staging.web.app",
     "DHALI_DEPLOYMENT_COST_PER_CHUNK_DROPS": 2000,
