@@ -123,7 +123,7 @@
             "WSS_CLIENT": "wss://testnet.xrpl-labs.com/"
         },
         "SEPOLIA": {
-            "HTTP_CLIENT": "https://rpc.ankr.com/eth",
+            "HTTP_CLIENT": "https://ethereum-sepolia.publicnode.com",
             "WSS_CLIENT": "wss://rpc.ankr.com/eth/ws"
         },
         "OPEN_PAYMENTS.TESTNET": {}
