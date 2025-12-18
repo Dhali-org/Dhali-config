@@ -130,7 +130,7 @@
     },
     "CONTRACTS": {
         "SEPOLIA": {
-            "contract_address": "0x880BF826F557dD22007b5F1c6e0E5436807b2e10"
+            "contract_address": "0x652DE763886c0f34E88470fea14Ba4a60EfeFa51"
         }
     },
     "OPENPAYMENTS_REDIRECT_CLIENT": "https://dhali-op-redirect-staging.web.app",
