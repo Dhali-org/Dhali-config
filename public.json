@@ -85,6 +85,11 @@
             "ETH":{
                 "wallet_id": "0xea6678f1f28bcf59172b898eeb04263e59fb4d66",
                 "scale": 18
+            },
+            "USDC": {
+                "wallet_id": "0xea6678f1f28bcf59172b898eeb04263e59fb4d66",
+                "scale": 6,
+                "issuer": "0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238"
             }
         },
         "OPEN_PAYMENTS.TESTNET": {
