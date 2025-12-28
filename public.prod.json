@@ -73,7 +73,7 @@
                 "wallet_id": "rLggTEwmTe3eJgyQbCSk4wQazow2TeKrtR",
                 "scale": 6,
                 "issuer": "rDyz9rX7eGJRdVDC8NGxMxqh9U14qduqzS"
-            }  
+            }                
         },
         "XAHL.TESTNET": {
             "XAH":{
@@ -91,6 +91,22 @@
             "XRP":{
                 "wallet_id": "rLggTEwmTe3eJgyQbCSk4wQazow2TeKrtR",
                 "scale": 6
+            }
+        },
+        "SEPOLIA": {
+            "ETH":{
+                "wallet_id": "0x3D85634D9EA2854F4276eE5372Bf32Eb4ACDbf77",
+                "scale": 18
+            },
+            "USDC": {
+                "wallet_id": "0x3D85634D9EA2854F4276eE5372Bf32Eb4ACDbf77",
+                "scale": 6,
+                "issuer": "0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238"
+            },
+            "RLUSD": {
+                "wallet_id": "0x3D85634D9EA2854F4276eE5372Bf32Eb4ACDbf77",
+                "scale": 18,
+                "issuer": "0xe101FB315a64cDa9944E570a7bFfaFE60b994b1D"
             }
         },
         "OPEN_PAYMENTS.TESTNET": {
@@ -128,9 +144,17 @@
             "HTTP_CLIENT": "https://testnet.xrpl-labs.com/",
             "WSS_CLIENT": "wss://testnet.xrpl-labs.com/"
         },
+        "SEPOLIA": {
+            "HTTP_CLIENT": "https://ethereum-sepolia.publicnode.com",
+            "WSS_CLIENT": "wss://rpc.ankr.com/eth/ws"
+        },
         "OPEN_PAYMENTS.TESTNET": {}
     },
-    "OPENPAYMENTS_REDIRECT_CLIENT": "https://redirect-op.dhali.io",
+    "CONTRACTS": {
+        "SEPOLIA": {
+            "contract_address": "0x652DE763886c0f34E88470fea14Ba4a60EfeFa51"
+        }
+    },
     "DHALI_DEPLOYMENT_COST_PER_CHUNK_DROPS": 2000,
     "DHALI_CPU_INFERENCE_COST_PER_MS": 0.1,
     "DHALI_EARNINGS_PERCENTAGE_PER_INFERENCE": 2,
