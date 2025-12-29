@@ -109,6 +109,22 @@
                 "issuer": "0xe101FB315a64cDa9944E570a7bFfaFE60b994b1D"
             }
         },
+        "ETHEREUM": {
+            "ETH":{
+                "wallet_id": "0xea6678f1f28bcf59172b898eeb04263e59fb4d66",
+                "scale": 18
+            },
+            "USDC": {
+                "wallet_id": "0xea6678f1f28bcf59172b898eeb04263e59fb4d66",
+                "scale": 6,
+                "issuer": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+            },
+            "RLUSD": {
+                "wallet_id": "0xea6678f1f28bcf59172b898eeb04263e59fb4d66",
+                "scale": 18,
+                "issuer": "0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD"
+            }
+        },
         "OPEN_PAYMENTS.TESTNET": {
             "USD": {
                 "wallet_id": "$ilp.rafiki.money/dhali_usd",
@@ -148,11 +164,18 @@
             "HTTP_CLIENT": "https://ethereum-sepolia.publicnode.com",
             "WSS_CLIENT": "wss://rpc.ankr.com/eth/ws"
         },
+        "ETHEREUM": {
+            "HTTP_CLIENT": "https://ethereum-rpc.publicnode.com",
+            "WSS_CLIENT": "wss://rpc.ankr.com/eth/ws"
+        },
         "OPEN_PAYMENTS.TESTNET": {}
     },
     "CONTRACTS": {
         "SEPOLIA": {
             "contract_address": "0x652DE763886c0f34E88470fea14Ba4a60EfeFa51"
+        },
+        "ETHEREUM": {
+            "contract_address": "0x2ec3b3867A1923cFE742D50f5B4BB7fbf75C2653"
         }
     },
     "DHALI_DEPLOYMENT_COST_PER_CHUNK_DROPS": 2000,
