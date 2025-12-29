@@ -111,16 +111,16 @@
         },
         "ETHEREUM": {
             "ETH":{
-                "wallet_id": "0xea6678f1f28bcf59172b898eeb04263e59fb4d66",
+                "wallet_id": "0x3D85634D9EA2854F4276eE5372Bf32Eb4ACDbf77",
                 "scale": 18
             },
             "USDC": {
-                "wallet_id": "0xea6678f1f28bcf59172b898eeb04263e59fb4d66",
+                "wallet_id": "0x3D85634D9EA2854F4276eE5372Bf32Eb4ACDbf77",
                 "scale": 6,
                 "issuer": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
             },
             "RLUSD": {
-                "wallet_id": "0xea6678f1f28bcf59172b898eeb04263e59fb4d66",
+                "wallet_id": "0x3D85634D9EA2854F4276eE5372Bf32Eb4ACDbf77",
                 "scale": 18,
                 "issuer": "0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD"
             }
