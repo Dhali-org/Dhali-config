@@ -1,5 +1,5 @@
 {
-    "VERSION": "1.1.1",
+    "VERSION": "1.2.0",
     "new_features": [
         "Create paid API keys with [JavaScript](https://www.npmjs.com/package/dhali-js)", 
         "Create paid API keys with [Python](https://pypi.org/project/dhali-py/)"],
@@ -160,10 +160,10 @@
     },
     "CONTRACTS": {
         "SEPOLIA": {
-            "contract_address": "0x652DE763886c0f34E88470fea14Ba4a60EfeFa51"
+            "contract_address": "0x97Ab1D8B2c55d593924D025e5667B8Bf02d193de"
         },
         "ETHEREUM": {
-            "contract_address": "0x2ec3b3867A1923cFE742D50f5B4BB7fbf75C2653"
+            "contract_address": "0x82E660782B2f9B90363FB1920E4d2Ec090fadF37"
         }
     },
     "OPENPAYMENTS_REDIRECT_CLIENT": "https://dhali-op-redirect-staging.web.app",
