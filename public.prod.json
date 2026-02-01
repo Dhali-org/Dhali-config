@@ -1,5 +1,5 @@
 {
-    "VERSION": "1.2.0",
+    "VERSION": "1.3.0",
 
     "new_features": [
         "Create paid API keys with [JavaScript](https://www.npmjs.com/package/dhali-js)", 
