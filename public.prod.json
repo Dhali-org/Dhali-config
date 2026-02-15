@@ -69,8 +69,7 @@
         "XRPL.MAINNET": "xrpl:0",
         "XRPL.TESTNET": "xrpl:1",
         "SEPOLIA": "eip155:11155111",
-        "ETHEREUM": "eip155:1",
-        "OPEN_PAYMENTS.TESTNET": "ilp:testnet"
+        "ETHEREUM": "eip155:1"
     },
     "DHALI_PUBLIC_ADDRESSES": {
         "XAHL.MAINNET": {
@@ -145,18 +144,6 @@
                 "scale": 18,
                 "issuer": "0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD"
             }
-        },
-        "OPEN_PAYMENTS.TESTNET": {
-            "USD": {
-                "caip19": "ilp:testnet/asset:USD",
-                "wallet_id": "$ilp.rafiki.money/dhali_usd",
-                "scale": 6
-            },
-            "EUR": {
-                "caip19": "ilp:testnet/asset:EUR",
-                "wallet_id": "$ilp.rafiki.money/dhali_eur",
-                "scale": 6
-            }
         }
     },
     "PRICING_CURRENCIES": {
@@ -190,8 +177,7 @@
         "ETHEREUM": {
             "HTTP_CLIENT": "https://ethereum-rpc.publicnode.com",
             "WSS_CLIENT": "wss://rpc.ankr.com/eth/ws"
-        },
-        "OPEN_PAYMENTS.TESTNET": {}
+        }
     },
     "CONTRACTS": {
         "SEPOLIA": {
