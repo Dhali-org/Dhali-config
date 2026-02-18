@@ -1,5 +1,5 @@
 {
-    "VERSION": "1.5.0",
+    "VERSION": "1.6.0",
     "new_features": [
         "Create paid API keys with [JavaScript](https://www.npmjs.com/package/dhali-js)", 
         "Create paid API keys with [Python](https://pypi.org/project/dhali-py/)"],
@@ -48,6 +48,7 @@
     "ROOT_API_ADMIN_URL": "wss://api-admin-gateway-l4g5ea3neq-uc.a.run.app",
     "ROOT_OPENPAYMENTS_DEPOSIT_SERVER": "wss://open-payments-deposit-server-l4g5ea3neq-uc.a.run.app",
     "ROOT_CHARGE_URL": "https://inference-gateway-284340395549.us-central1.run.app",
+    "ROOT_X402_FACILITATOR_URL": "https://inference-gateway-284340395549.us-central1.run.app",
     "ROOT_RUN_URL": "https://inference-gateway-284340395549.us-central1.run.app",
     "ROOT_WS_RUN_URL": "wss://inference-gateway-284340395549.us-central1.run.app",
     "XUMM_SERVER_URL": "https://xumm-requests-284340395549.us-central1.run.app",
