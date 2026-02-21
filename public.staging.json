@@ -1,8 +1,7 @@
 {
-    "VERSION": "1.6.0",
+    "VERSION": "1.6.1",
     "new_features": [
-        "Create paid API keys with [JavaScript](https://www.npmjs.com/package/dhali-js)", 
-        "Create paid API keys with [Python](https://pypi.org/project/dhali-py/)"],
+        "Dhali is [x402 compliant](https://dhali.io/docs/x402-support/)"],
     "MINTED_NFTS_DOCUMENT_KEYS": {
         "NUMBER_OF_SUCCESSFUL_REQUESTS": "num_successful_requests",
         "EARNING_CURRENCY": "asset_earning_currency",
