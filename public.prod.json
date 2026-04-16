@@ -1,5 +1,5 @@
 {
-    "VERSION": "1.6.3",
+    "VERSION": "1.6.4",
     "new_features": [
         "Dhali is [x402 compliant](https://dhali.io/docs/x402-support/)"],
     "MINTED_NFTS_DOCUMENT_KEYS": {
@@ -56,7 +56,7 @@
     "POST_LINK_ASSET_ROUTE": "link",
     "ROOT_DEPLOY_URL": "https://deploy-to-bucket-lgnnjupgwa-uc.a.run.app",
     "ROOT_CONSUMER_URL": "https://dhali-prod-consumer-dauenf0n.uc.gateway.dev",
-    "ROOT_API_ADMIN_URL": "wss://api-admin-gateway-lgnnjupgwa-uc.a.run.app", 
+    "ROOT_API_ADMIN_URL": "wss://admin.api.dhali.io", 
     "ROOT_OPENPAYMENTS_DEPOSIT_SERVER": "wss://open-payments-deposit-server-lgnnjupgwa-uc.a.run.app",
     "ROOT_CHARGE_URL": "https://charge.api.dhali.io",
     "ROOT_X402_FACILITATOR_URL": "https://x402.api.dhali.io",
