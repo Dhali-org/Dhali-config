@@ -154,8 +154,8 @@
             "WSS_CLIENT": "wss://xrplcluster.com/"
         },
         "XRPL.TESTNET": {
-            "HTTP_CLIENT": "https://testnet.xrpl-labs.com/",
-            "WSS_CLIENT": "wss://testnet.xrpl-labs.com/"
+            "HTTP_CLIENT": "https://s.altnet.rippletest.net:51234/",
+            "WSS_CLIENT": "wss://s.altnet.rippletest.net:51233/"
         },
         "SEPOLIA": {
             "HTTP_CLIENT": "https://ethereum-sepolia.publicnode.com",
