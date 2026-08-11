@@ -1,5 +1,5 @@
 {
-    "VERSION": "1.8.0",
+    "VERSION": "1.8.1",
     "new_features": [
         "Dhali is [x402 compliant](https://dhali.io/docs/x402-support/)"],
     "MINTED_NFTS_DOCUMENT_KEYS": {
@@ -34,7 +34,7 @@
         "f849abda-0e6b-4a56-ab76-41aa4267e495",
         "9de8be72-9590-407e-9bae-c73153503e31",
         "d1e8bc5b-5fbb-4073-8f26-b0bc637e4990",
-        "8e15f433-3890-49b5-a0c1-108aff54f118"
+        "8d0eb161-551f-4471-bae7-ff9ef205d62b"
     ],
     "MINTED_NFTS_COLLECTION_NAME": "public_minted_nfts",
     "PAYMENT_CLAIM_KEYS": {
@@ -204,6 +204,6 @@
         "xahauexplorer.dhali.io": "56d61c4b-654f-4abc-8e5e-7fcb89ba13dd",
         "xrpldata-inftf.dhali.io": "f849abda-0e6b-4a56-ab76-41aa4267e495",
         "xrplto.dhali.io": "9de8be72-9590-407e-9bae-c73153503e31",
-        "windb.dhali.io": "8e15f433-3890-49b5-a0c1-108aff54f118"
+        "windb.dhali.io": "8d0eb161-551f-4471-bae7-ff9ef205d62b"
     }
 }
