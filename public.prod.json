@@ -1,7 +1,9 @@
 {
-    "VERSION": "1.11.0",
+    "VERSION": "1.12.0",
     "new_features": [
-        "Dhali is [x402 compliant](https://dhali.io/docs/x402-support/)"],
+        "Dhali is [x402 compliant](https://dhali.io/docs/x402-support/)",
+        "Automate payments with [JavaScript](https://www.npmjs.com/package/dhali-js)", 
+        "Automate payments with [Python](https://pypi.org/project/dhali-py/)"],
     "MINTED_NFTS_DOCUMENT_KEYS": {
         "NUMBER_OF_SUCCESSFUL_REQUESTS": "num_successful_requests",
         "EARNING_CURRENCY": "asset_earning_currency",
